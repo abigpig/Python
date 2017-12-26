@@ -17,6 +17,9 @@ git clone https://github.com/pyinstaller/pyinstaller
  打包：
  
 切换到 F:\PyInstaller-3.3.1\myexe\p1.py
+
 pyinstaller -F p1.py 生成exe
+pyinstaller -m p1.py 生成不带adb窗口的exe
+pyinstaller --icon=F:\PyInstaller-3.3.1\myexe\icon.ico -w p1.py 生成指定图标的不带adb窗口的exe
 
 http://blog.csdn.net/churximi/article/details/50321853
