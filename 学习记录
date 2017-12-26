@@ -1,0 +1,22 @@
+https://www.python.org/  下载python3+
+
+http://www.pyinstaller.org/ 下载打包软件
+git clone https://github.com/pyinstaller/pyinstaller
+ 
+安装过程：
+ 切换到F:\PyInstaller-3.3.1
+执行cd bootloader
+    python ./waf distclean all
+再执行 python setup.py install
+ 
+ 若有问题执行 pip install pyinstaller
+ 再执行python setup.py install
+ 
+ pip list 可查看是否安装成功
+ 
+ 打包：
+ 
+切换到 F:\PyInstaller-3.3.1\myexe\p1.py
+pyinstaller -F p1.py 生成exe
+
+http://blog.csdn.net/churximi/article/details/50321853
